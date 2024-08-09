@@ -1,0 +1,163 @@
+/* Define o estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e; /* Fundo cinza escuro */
+    color: #f5f5f5; /* Texto em cor clara */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo da navegação */
+nav {
+    margin: 10px 0;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Esconde elementos com a classe hidden */
+.hidden {
+    display: none;
+}
+
+/* Contêiner para os flashcards */
+#flashcardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centraliza os flashcards horizontalmente */
+}
+
+/* Estilo de cada flashcard individual */
+.flashcard {
+    background-color: #3a3a3a; /* Fundo dos flashcards */
+    border: 1px solid #555; /* Cor da borda dos flashcards */
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #f5f5f5; /* Texto dos flashcards em cor clara */
+    word-wrap: break-word;
+}
+
+/* Estilo para os botões de editar e excluir */
+.flashcard button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.flashcard .edit-btn {
+    background-color: #ff9800;
+}
+
+.flashcard .delete-btn {
+    background-color: #f44336;
+}
+
+/* Centraliza o formulário e os campos de busca */
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-form h2 {
+    text-align: center;
+}
+
+.centered-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-form .search-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.centered-form .search-fields div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #666; /* Cor da borda dos campos de texto */
+    background-color: #444; /* Fundo dos campos de texto */
+    color: #f5f5f5; /* Texto dos campos de texto em cor clara */
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#searchCategory{
+    width: 130px;  
+    height: 10px;  
+}
+
+#searchTerm{
+    width: 130px;  
+    height: 10px;  
+}
+
+#category{
+    width: 130px;  
+    height: 10px;  
+}
+
+#question{
+    width: 130px;  
+    height: 10px; 
+}
+
+#answer{
+    width: 130px;  
+    height: 10px; 
+}
+
+.hidden {
+    display: none;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
